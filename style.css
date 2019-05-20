@@ -208,9 +208,9 @@ h1 {
 }
 
 .wrap img {
-    width: 65%;
+    width: 60%;
     position: absolute;
-    bottom: 0vh;
+    bottom: 0;
     left: 18vw;
     animation-name: fadein;
     animation-duration: 32s;
