@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: radial-gradient(#9198e5, #e66465);
+    height: 100vh;
+    text-align: center;
+    padding-top: 10vh;        
+}
+
+h1 {
+    font-size: 2em;
+    color: red;
+    font-family: cursive, sans-serif;
+}
+
+img {
+    width: 60%;
+    position: absolute;
+    top: 40vh;
+    left: 20vw;
+    animation: fadein 60s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
