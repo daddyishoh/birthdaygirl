@@ -3,7 +3,7 @@ var text = [ "I wanted to tell you how much you mean to me....", "how thankful I
     "so I'll have to leave it at....", "HAPPY BIRTHDAY!!! I LOVE YOU!"];
 var counter = 0;
 var elem = document.getElementById("changeText");
-var inst = setInterval(change, 2500);
+var inst = setInterval(change, 2750);
 
 function change() {
   elem.innerHTML = text[counter];
