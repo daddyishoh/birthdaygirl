@@ -6,25 +6,218 @@
 .container {
     background: radial-gradient(#9198e5, #e66465);
     height: 100vh;
-    text-align: center;
-    padding-top: 10vh;        
+    text-align: center;        
 }
 
 h1 {
     font-size: 2em;
     color: red;
-    font-family: cursive, sans-serif;
+    font-family: 'Stylish', sans-serif;
 }
 
-img {
-    width: 60%;
+.message {
+    height: 20vh;
+    /* margin: 2vh 0; */
+}
+
+.bgimage img {
+    width: 15vw;
+}
+
+#bgimage1 {
+    animation-name: fade1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade1 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage2 {
+    animation-name: fade2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade2 {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage3 {
+    animation-name: fade3;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade3 {
+    0% { opacity: 0; }
+    60% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage4 {
+    animation-name: fade4;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade4 {
+    0% { opacity: 0; }
+    65% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage5 {
+    animation-name: fade5;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade5 {
+    0% { opacity: 0; }
+    70% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage6 {
+    animation-name: fade6;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade6 {
+    0% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage7 {
+    animation-name: fade7;
+    animation-duration: 14s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade7 {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage8 {
+    animation-name: fade8;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade8 {
+    0% { opacity: 0; }
+    85% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage9 {
+    animation-name: fade9;
+    animation-duration: 18s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade9 {
+    0% { opacity: 0; }
+    85% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage10 {
+    animation-name: fade10;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade10 {
+    0% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage11 {
+    animation-name: fade11;
+    animation-duration: 22s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade11 {
+    0% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage12 {
+    animation-name: fade12;
+    animation-duration: 24s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade12 {
+    0% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage13 {
+    animation-name: fade13;
+    animation-duration: 26s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade13 {
+    0% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage14 {
+    animation-name: fade14;
+    animation-duration: 28s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade14 {
+    0% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage15 {
+    animation-name: fade15;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade15 {
+    0% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bgimage15 img {
+    width:50vw;
+}
+
+.wrap img {
+    width: 65%;
     position: absolute;
-    top: 40vh;
-    left: 20vw;
-    animation: fadein 60s;
+    bottom: 0vh;
+    left: 18vw;
+    animation-name: fadein;
+    animation-duration: 32s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    0% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
 }
