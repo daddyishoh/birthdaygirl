@@ -1,4 +1,4 @@
-var text = [ "I wanted to tell you how much you mean to me....", "how thankful I am....", "that you have stuck by me and...", 
+var text = [ "and....", "I really wanted to tell you...", "how much you mean to me....", "how thankful I am....", "that you have stuck by me and...", 
     "believed in me....", "when I didn't even believe in myself...", "but.....", "I can't find the words....", "none seem to fit quite right...",
     "so I'll have to leave it at....", "HAPPY BIRTHDAY!!! I LOVE YOU!"];
 var counter = 0;
