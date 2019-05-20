@@ -10,14 +10,14 @@
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     color: red;
     font-family: 'Stylish', sans-serif;
 }
 
 .message {
-    height: 20vh;
-    /* margin: 2vh 0; */
+    height: 15vh;
+    margin-top: 5vh;
 }
 
 .bgimage img {
